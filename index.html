@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>여행 비서 설치</title>
+<link rel="apple-touch-icon" href="icon-512.png">
+<style>
+  :root { --brand:#1677FF; --coral:#FF6B4A; --bg:#F5F7FA; --card:#fff; --text:#111827; --muted:#6B7280; --line:#E5E7EB; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0F1216; --card:#1A1F26; --text:#E9EDF2; --muted:#97A1AD; --line:#2A313A; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
+  .hero { background:linear-gradient(135deg,#1677FF,#4FA3FF 55%,#FF8A70); color:#fff; padding:48px 20px 36px; text-align:center; border-radius:0 0 28px 28px; }
+  .hero img { width:96px; height:96px; border-radius:22px; box-shadow:0 8px 24px rgba(0,0,0,.2); }
+  .hero h1 { margin:14px 0 4px; font-size:1.7rem; }
+  .hero p { margin:0; opacity:.92; }
+  main { max-width:480px; margin:0 auto; padding:20px 16px 48px; }
+  .btn { display:block; text-align:center; background:var(--brand); color:#fff; text-decoration:none; font-weight:700; font-size:1.1rem; padding:16px; border-radius:16px; margin:4px 0 8px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; margin-top:16px; }
+  .card h2 { margin:0 0 10px; font-size:1.05rem; }
+  ol { margin:0; padding-left:20px; } li { margin:6px 0; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  .qr { text-align:center; }
+  .qr img { width:200px; height:200px; background:#fff; padding:10px; border-radius:16px; }
+  .warn { color:var(--coral); font-weight:600; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <img src="icon-512.png" alt="">
+    <h1>여행 비서</h1>
+    <p>동선·시간·비용까지 짜 주는 가족 여행 앱</p>
+  </div>
+  <main>
+    <a class="btn" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fezky0930.github.io%2Ftravel-planner-install%2Fmanifest.plist">📲 아이폰에 설치하기</a>
+    <p class="muted" style="text-align:center">버전 1.0 (1) · 2026.10.18 빌드 · 2027년 6월 30일까지 사용 가능</p>
+
+    <div class="card">
+      <h2>설치 방법</h2>
+      <ol>
+        <li>아이폰 <b>Safari</b>에서 이 페이지를 열고 위 <b>설치하기</b>를 누르세요.</li>
+        <li>"설치하시겠습니까?" 창에서 <b>설치</b>를 누르면 홈 화면에 앱이 생겨요.</li>
+        <li>앱을 열고 <b>설정</b> 탭에서 Claude API 키를 넣으면 끝이에요.</li>
+      </ol>
+      <p class="muted">"개발자 모드가 필요합니다"가 뜨면: 설정 → 개인정보 보호 및 보안 → 개발자 모드 켜기 → 재시동.</p>
+      <p class="warn">미리 등록된 가족 아이폰에서만 설치돼요.</p>
+    </div>
+
+    <div class="card qr">
+      <h2>다른 폰으로 열기</h2>
+      <img src="qr.png" alt="설치 페이지 QR 코드">
+      <p class="muted">아이폰 카메라로 찍으면 이 페이지가 열려요.</p>
+    </div>
+  </main>
+</body>
+</html>
