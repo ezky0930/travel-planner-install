@@ -3,13 +3,13 @@
 <plist version="1.0"><dict>
   <key>items</key><array><dict>
     <key>assets</key><array>
-      <dict><key>kind</key><string>software-package</string><key>url</key><string>https://ezky0930.github.io/travel-planner-install/TravelPlanner.ipa?v=8-1792404468</string></dict>
+      <dict><key>kind</key><string>software-package</string><key>url</key><string>https://ezky0930.github.io/travel-planner-install/TravelPlanner.ipa?v=9-1792404682</string></dict>
       <dict><key>kind</key><string>display-image</string><key>url</key><string>https://ezky0930.github.io/travel-planner-install/icon-57.png</string></dict>
       <dict><key>kind</key><string>full-size-image</string><key>url</key><string>https://ezky0930.github.io/travel-planner-install/icon-512.png</string></dict>
     </array>
     <key>metadata</key><dict>
       <key>bundle-identifier</key><string>com.ezky.travelplanner</string>
-      <key>bundle-version</key><string>1.7</string>
+      <key>bundle-version</key><string>1.8</string>
       <key>kind</key><string>software</string>
       <key>title</key><string>여행 비서</string>
     </dict>
